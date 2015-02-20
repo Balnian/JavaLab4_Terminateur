@@ -12,7 +12,7 @@ public class Terminateur implements Runnable
                 new InputStreamReader( System.in ) );
 
 
-        while(!str.toLowerCase().equals("q"))
+        while(!str.toLowerCase().trim().equals("q"))
         {
             try
             {
