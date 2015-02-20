@@ -12,10 +12,9 @@ public class TestTerminateur{
         while(t.isAlive())
         {
             try{
-                Thread.sleep(500);
-                if(t.isAlive())
+               
                 System.out.print('.');
-
+                Thread.sleep(500);
             }catch (InterruptedException e){
 
                 System.out.println(e);
